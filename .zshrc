@@ -123,6 +123,8 @@ export PATH="/Applications/XAMPP/xamppfiles/bin:$PATH"
 # Anaconda
 # export PATH="/opt/homebrew/anaconda3/bin:$PATH"  # commented out by conda initialize
 
+# Java
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
