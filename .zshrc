@@ -119,3 +119,8 @@ gpgconf --launch gpg-agent
 
 # Java
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
+# PyEnv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
