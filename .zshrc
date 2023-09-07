@@ -109,6 +109,9 @@ setopt PROMPT_CR
 setopt PROMPT_SP
 export PROMPT_EOL_MARK=""
 
+# Alias Commands
+alias cf-mongodb-1="cloudflared access tcp --hostname mongodb.algonion.com --url localhost:27017"
+
 # NVM
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
